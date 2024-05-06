@@ -1,0 +1,64 @@
+/* Estilos anteriores permanecem os mesmos */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#noticias ul {
+    list-style: none;
+    padding: 0;
+}
+
+#noticias ul li {
+    margin-bottom: 10px;
+}
+
+#noticias ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contato form {
+    margin-top: 20px;
+}
+
+#contato form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contato form input[type="text"],
+#contato form input[type="email"],
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contato form textarea {
+    height: 100px;
+}
+
+#contato form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contato form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
